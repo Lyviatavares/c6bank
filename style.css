@@ -1,0 +1,41 @@
+:root{
+    --brand: #52606B;
+    --ccor1: #0080A8;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container{
+    width: 457px;
+    padding-left: 84px;
+    padding-right: 146px;
+    padding-top: 80px;
+}
+
+.bg{
+    background-color: var(--brand);
+    width: 471px;
+    height: 768px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    width: 450px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--brand);
+    color: white;
+    
+}
