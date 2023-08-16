@@ -14,28 +14,45 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .container{
-    width: 457px;
-    padding-left: 84px;
-    padding-right: 146px;
-    padding-top: 80px;
+    height: 100vh;
+    margin-left: 86px;
 }
 
 .bg{
     background-color: var(--brand);
     width: 471px;
     height: 768px;
+    border: none;
 }
+
 
 .hero-section{
     display: flex;
     align-items: center;
+   
 }
 
+.titulo{
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+
+}
 .btn{
     width: 450px;
     height: 50px;
     border-radius: 25px;
     background-color: var(--brand);
     color: white;
+    text-align: center;
     
 }
+
+.bg-model{
+    width: 50%;
+    background-size: cover;
+}
+
+.formulario{
+    width: 50%;
+}
+
